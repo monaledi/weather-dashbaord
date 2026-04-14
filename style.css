@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+.saira-stencil-header {
+  font-family: "Saira Stencil", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background-color: white;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 10px;
+}
+
+button img {
+    width :20px;
+    height :20px;
+}
+
+input {
+  width: 350px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.weather-container {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.current-weather {
+  width: 1200px;
+  height: 750px;
+
+}
+
+.forecast {
+  width: 800px;
+  height: 750px;
+}
+
+h2 {
+    color: orange;
+    text-align: center;
+    background-color: black;
+}
+
+.today-layout {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  height: 100%;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+  height: 110%;
+}
+
+.right-box {
+  width: 40%;
+  height: 100%;
+}
+
+.top-left-box,
+.bottom-left-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-left-box,
+.bottom-left-box,
+.right-box {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.top-left-box img {
+  max-width: 800%;
+  max-height: 800%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.bottom-left-box {
+    gap:  50px;
+}
+
+.temp {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.feels-like {
+  font-size: 30px;
+}
+
+.right-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.forecast-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.forecast-day {
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.forecast-date {
+  font-size: 24px;
+  font-weight: bold;
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.forecast-high {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.forecast-low {
+  font-size: 18px;
+  color: #666;
+}

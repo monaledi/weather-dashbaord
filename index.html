@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font for the header -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <header>
+        <h1 class="saira-stencil-header">Weather Dashboard</h1>
+    </header>
+
+    <div class="search-container">
+        <input type="text" placeholder="Enter a city...">
+        <button>
+        <img src="images/search-icon.png" alt="Search">
+        </button>
+    </div>
+
+    <div class="weather-container">
+        <div class="current-weather">
+            <h2 class="saira-stencil-header">Today’s Weather</h2>
+            <div class="today-layout">
+                <div class="left-column">
+                    <div class="top-left-box">
+                        <img src="images/clear.png" alt="Sunny weather">
+                    </div>
+
+                <div class="bottom-left-box">
+                    <p class="temp">13°C</p>
+                    <p class="feels-like">Feels like 8°</p>
+                </div>
+    </div>
+
+    <div class="right-box">
+        <p class="feels-like">Wind: 3.6</p>
+        <p class="feels-like">Humidity: 64%</p>
+        <p class="feels-like">Cloud cover: 75%</p>
+    </div>
+    </div>
+
+        </div>
+    <div class="forecast">
+        <h2 class="saira-stencil-header">Forecasst</h2>
+        <div class="forecast-list">
+            <div class="forecast-day">
+                <p class="forecast-date">Wed</p>
+                <p class="forecast-high">H: 17°C</p>
+                <p class="forecast-low">L: 10°C</p>
+            </div>
+
+            <div class="forecast-day">
+                <p class="forecast-date">Thu</p>
+                <p class="forecast-high">H: 16°C</p>
+                <p class="forecast-low">L: 9°C</p>
+            </div>
+
+            <div class="forecast-day">
+                <p class="forecast-date">Fri</p>
+                <p class="forecast-high">H: 14°C</p>
+                <p class="forecast-low">L: 8°C</p>
+            </div>
+
+            <div class="forecast-day">
+                <p class="forecast-date">Sat</p>
+                <p class="forecast-high">H: 13°C</p>
+                <p class="forecast-low">L: 7°C</p>
+            </div>
+
+            <div class="forecast-day">
+                <p class="forecast-date">Sun</p>
+                <p class="forecast-high">H: 13°C</p>
+                <p class="forecast-low">L: 7°C</p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>
